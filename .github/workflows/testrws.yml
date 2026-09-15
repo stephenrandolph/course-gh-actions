@@ -16,7 +16,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Run a one-line script
-        run: echo Hello, world
+        run: sleep 5
 
       - name: Run a muiti-line script
         run: |
